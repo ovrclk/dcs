@@ -53,9 +53,8 @@ The best way to get client implementers to review your AIP is to present it to t
 These calls generally result in a "rough consensus" around what AIPs should be implemented. This "rough consensus" rests on the assumptions that AIPs are not contentious enough to cause a network split and that they are technically sound.
 
 ### AIP Process
-<center>
+
 ![Process](../assets/aip-1/process.svg)
-</center>
 
 Following is the process that a successful non-Core AIP will move along:
 
