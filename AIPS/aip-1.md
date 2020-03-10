@@ -1,9 +1,9 @@
 ---
 aip: 1
 title: AIP Purpose and Guidelines
-status: Active
+status: Draft
 type: Meta
-author: Greg Osuri <@gosuri>, Adam Bozanich <@boz>
+author: Greg Osuri (@gosuri), Adam Bozanich (@boz)
 discussions-to: https://github.com/ovrclk/AIPs/blob/master/AIPS/aip-1.md
 created: 2020-03-09
 updated: 2020-03-09
@@ -257,4 +257,4 @@ This document was derived heavily from [Ethereum's EIP-1] written by Martin Becz
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+All content herein is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
