@@ -8,7 +8,7 @@ category: Core
 created: 2020-03-09
 ---
 
-# # Summary
+## Summary
 Implement a set of changes that improves a tenant's trust for a provider in a trust minimized setting.
 
 
