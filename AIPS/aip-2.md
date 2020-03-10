@@ -4,7 +4,7 @@ title: Provider Accreditation
 author: Greg Osuri (@gosuri)
 status: Idea
 type: Standards Track
-category Core
+category: Core
 created: 2020-03-09
 ---
 
