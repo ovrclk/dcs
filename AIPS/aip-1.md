@@ -3,7 +3,7 @@ aip: 1
 title: AIP Purpose and Guidelines
 status: Active
 type: Meta
-author: Greg Osuri <greg@akash.network>, Adam Bozanich <adam@akash.network>
+author: Greg Osuri <@gosuri>, Adam Bozanich <@boz>
 discussions-to: https://github.com/ovrclk/AIPs/blob/master/AIPS/aip-1.md
 created: 2020-03-09
 updated: 2020-03-09
