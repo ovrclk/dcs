@@ -4,7 +4,7 @@ title: AIP Purpose and Guidelines
 status: Active
 type: Meta
 author: Greg Osuri <greg@akash.network>, Adam Bozanich <adam@akash.network>
-        https://github.com/ovrclk/AIPs/blob/master/AIPS/aip-1.md
+discussions-to: https://github.com/ovrclk/AIPs/blob/master/AIPS/aip-1.md
 created: 2020-03-09
 updated: 2020-03-09
 ---
@@ -53,6 +53,9 @@ The best way to get client implementers to review your AIP is to present it to t
 These calls generally result in a "rough consensus" around what AIPs should be implemented. This "rough consensus" rests on the assumptions that AIPs are not contentious enough to cause a network split and that they are technically sound.
 
 ### AIP Process
+<center>
+![Process](../assets/aip-1/process.svg)
+</center>
 
 Following is the process that a successful non-Core AIP will move along:
 
@@ -214,13 +217,10 @@ If you are interested in assuming ownership of an AIP, send a message asking to 
 
 The current AIP editors are
 
-` * Greg Osuri (@gosuri)`
-
-` * Adam Bozanich (@boz)`
-
-` * Jack Zampolin (@jack_zampolin)`
-
-` * Sunny Aggarwal (@sunnya97)`
+* Greg Osuri (@gosuri)
+* Adam Bozanich (@boz)
+* Jack Zampolin (@jack_zampolin)
+* Sunny Aggarwal (@sunnya97)
 
 ## AIP Editor Responsibilities
 
