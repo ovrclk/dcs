@@ -1,5 +1,5 @@
 ---
-aip: 2
+aip: 5
 title: Cosmos SDK Codebase Migration
 author: Greg Osuri (@gosuri)
 status: Final
