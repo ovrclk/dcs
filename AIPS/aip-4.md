@@ -31,3 +31,7 @@ Standard services such as databases, when managed by specialized service provide
 - Provide a federated experience by extending identity, operational, and user interface support to a diverse set of managed services that include services from decentralized and managed infrastructure ecosystems
 - Provide a standard mechanism to decouple services from data to enable maximum possible portability such as [DTP](https://datatransferproject.dev)
 - Provide necessary technical and operational support 
+
+## Copyright
+
+All content herein is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
