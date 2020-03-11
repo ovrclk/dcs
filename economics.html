@@ -1,0 +1,7 @@
+---
+layout: page
+title: Economics
+---
+
+{% assign aips=site.pages|where:"type","Standards Track"|where:"category","Economics" %}
+{% include aiptable.html aips=aips %}

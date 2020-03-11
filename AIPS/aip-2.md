@@ -1,8 +1,8 @@
 ---
 aip: 2
 title: Accredited Providers
-author: Greg Osuri (@gosuri)
-status: Idea
+author: Greg Osuri (@gosuri), Adam Bozanich (@boz)
+status: Draft
 type: Standards Track
 category: Core
 created: 2020-03-09

@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+
+<p>Akash Improvement Proposals (AIPs) describe standards for the Akash platform, including core protocol specifications, client APIs, and SDL standards.</p>
+
+<h2>Contributing</h2>
+<p>First review <a href="AIPS/aip-1">AIP-1</a>. Then clone the repository and add your AIP to it. There is a <a href="https://github.com/ovrclk/AIPs/blob/master/aip-template.md">template AIP here</a>. Then submit a Pull Request to Akash's <a href="https://github.com/ovrclk/AIPs">AIPs repository</a>.</p>
+
+<h2>AIP status terms</h2>
+<ul>
+  <li><strong>Draft</strong> - an AIP that is open for consideration and is undergoing rapid iteration and changes.</li>
+  <li><strong>Last Call</strong> - an AIP that is done with its initial iteration and ready for review by a wide audience.</li>
+  <li><strong>Accepted</strong> - a core AIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. The process for Core Devs to decide whether to encode an AIP into their clients as part of a hard fork is not part of the AIP process. If such a decision is made, the AIP will move to final. </li>
+  <li><strong>Final (non-Core)</strong> - an AIP that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.</li>
+  <li><strong>Final (Core)</strong> - an AIP that the Core Devs have decided to implement and release in a future hard fork or has already been released in a hard fork.</li>
+</ul>
+
+<h2>AIP Types</h2>
+
+<p>AIPs are separated into a number of types, and each has its own list of AIPs.</p>
+
+<h3>Standard Track ({{site.pages|where:"type","Standards Track"|size}})</h3>
+<p>Describes any change that affects most or all Akash implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Akash. Furthermore Standard AIPs can be broken down into the following categories.</p>
+
+<h4><a href="{{"core"|relative_url}}">Core</a> ({{site.pages|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
+<p>Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions.</p>
+
+<h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.pages|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
+<p>Improvements around client API specifications and standards, and also certain language-level standards like method names.</p>
+
+<h4><a href="{{"economics"|relative_url}}">Economics</a> ({{site.pages|where:"type","Standards Track"|where:"category","Economics"|size}})</h4>
+<p> Improvements around Akash Economic Model with regards to Staking or Subsidy distribution (<a href="AIPS/aip-3">AIP-3</a>).  </p>
+
+<h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.pages|where:"type","Meta"|size}})</h3>
+<p>Describes a process surrounding Akash or proposes a change to (or an event in) a process. Process AIPs are like Standards Track AIPs but apply to areas other than the Akash protocol itself. They may propose an implementation, but not to Akash's codebase; they often require community consensus; unlike Informational AIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Akash development. Any meta-AIP is also considered a Process AIP.</p>
+
+<h3><a href="{{"informational"|relative_url}}">Informational</a> ({{site.pages|where:"type","Informational"|size}})</h3>
+<p>Describes a Akash design issue, or provides general guidelines or information to the Akash community, but does not propose a new feature. Informational AIPs do not necessarily represent Akash community consensus or a recommendation, so users and implementers are free to ignore Informational AIPs or follow their advice.</p>
