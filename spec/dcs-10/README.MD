@@ -12,7 +12,6 @@ created: 2020-03-09
 
 The block compensation for a staker is proportional to their staked amount, the time to unlock and overall locked tokens.
 
-
 ## Copyright
 
 All content herein is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).

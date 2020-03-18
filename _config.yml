@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Decentralized Cloud Standard
+title: Decentralized Cloud Standards
 description: >- # this means to ignore newlines until "baseurl:"
   Decentralized Cloud Standards (DCSs) describe standards for the Akash platform, 
   including core protocol specifications, client APIs, and SDL standards.
@@ -31,6 +31,8 @@ header_pages:
 twitter:
   card: summary
   username: akashnet_
+og:
+  image: assets/preview.png
 
 # Build settings
 markdown: kramdown
