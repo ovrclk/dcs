@@ -4,7 +4,7 @@ Decentralized Cloud Standards (DCSs) describe standards for the [Akash](https://
 
 ## Contributing
 
-1. Review [DCS-1](spec/dcs-001-dcs-standard).
+1. Review [DCS-1](spec/dcs-1).
 2. Fork the repository by clicking "Fork" in the top right.
 3. Add your DCS to your fork of the repository. There is a [template DCS here](dcs-template.md).
 4. Submit a Pull Request to Akash's [DCSs repository](https://github.com/ovrclk/dcs).
