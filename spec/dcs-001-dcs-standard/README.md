@@ -4,9 +4,9 @@ title: DCS Purpose and Guidelines
 status: Draft
 type: Meta
 author: Greg Osuri (@gosuri), Adam Bozanich (@boz)
-discussions-to: https://github.com/ovrclk/DCSs/blob/master/DCSS/dcs-1.md
+discussions-to: https://github.com/ovrclk/dcs/issues/1
 created: 2020-03-09
-updated: 2020-03-09
+updated: 2020-03-17
 ---
 
 ## What is an DCS?
@@ -214,12 +214,12 @@ If you are interested in assuming ownership of an DCS, send a message asking to 
 
 ## DCS Editors
 
-The current DCS editors are
+The current DCS editors are:
 
-* Greg Osuri (@gosuri)
-* Adam Bozanich (@boz)
-* Jack Zampolin (@jack_zampolin)
-* Sunny Aggarwal (@sunnya97)
+* Greg Osuri ([@gosuri](http://github.com/gosuri))
+* Adam Bozanich ([@boz](http://github.com/boz))
+* Jack Zampolin ([@jack_zampolin](http://github.com/jack_zampolin))
+* Sunny Aggarwal ([@sunnya97](http://github.com/sunnya97))
 
 ## DCS Editor Responsibilities
 
