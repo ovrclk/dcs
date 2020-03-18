@@ -1,6 +1,6 @@
 ---
 dcs: 11
-title: Managed Services Marketplace
+title: Managed Services Market
 author: Greg Osuri (@gosuri), Adam Bozanich (@boz)
 status: Draft
 type: Standards Track

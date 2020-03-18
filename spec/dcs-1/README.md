@@ -1,7 +1,7 @@
 ---
 dcs: 1
 title: DCS Purpose and Guidelines
-status: Draft
+status: Final
 type: Meta
 author: Greg Osuri (@gosuri), Adam Bozanich (@boz)
 discussions-to: https://github.com/ovrclk/dcs/issues/1

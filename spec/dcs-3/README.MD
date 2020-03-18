@@ -2,7 +2,7 @@
 dcs: 3
 title: Stack Definition Language
 author: Adam Bozanich (@boz)
-status: Draft
+status: Final
 type: Standards Track
 category: Interface
 created: 2020-03-09
@@ -23,7 +23,7 @@ A complete deployment has the following sections:
  * [profiles](#profiles)
  * [deployment](#deployment)
 
-An example deployment configuration for the Akash testnet can be found [here](testnet/testnet-deployment.yml). A full example deployment configuration can be found [here](deployment.yml).
+A full example deployment configuration can be found [here](https://github.com/ovrclk/dcs/blob/master/spec/dcs-3/deployment.yml).
 
 ### version
 
@@ -89,14 +89,14 @@ uses uses the profile.
 
 Example:
 
-This defines a profile named `web` having resource requirements of 2 vCPUs, 2 gigabytes of memory, and 5 gigabytes of disk space available.
+This defines a profile named `web` having resource requirements of 2 vCPUs, 2 gigabytes of memory, and 5 gigabytes of storage space available.
 
 
 ```yaml
 web:
   cpu: 2
   memory: "2Gi"
-  disk: "5Gi"
+  storage: "5Gi"
 ```
 
 `cpu` units represent a vCPU share and can be fractional.  When no suffix is present the value represents
@@ -111,7 +111,7 @@ Example:
 | `"100m"` | 1/10 |
 | `"50m"` | 1/20 |
 
-`memory`, `disk` units are described in bytes.  The following suffixes are allowed for simplification:
+`memory`, `storage` units are described in bytes.  The following suffixes are allowed for simplification:
 
 | Suffix | Value |
 | --- | --- |

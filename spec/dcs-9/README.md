@@ -1,6 +1,6 @@
 ---
 dcs: 9
-title: Subsidizing Supply as an Incentive
+title: Subsidized Computing Incentive
 author: Greg Osuri (@gosuri)
 status: Draft
 type: Standards Track

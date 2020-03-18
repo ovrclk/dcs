@@ -2,7 +2,7 @@
 dcs: 2
 title: Decentralized Cloud Exchange
 author: Adam Bozanich (@boz)
-status: Draft
+status: Final
 type: Standards Track
 category: Core
 created: 2018-03-18
@@ -70,12 +70,6 @@ Decentralized cloud computing exchange connects those who need computing resourc
 * Once [lease](#lease) is reached, workloads and topology are delivered to [datacenter](#datacenters).
 * [Datacenter](#datacenters) deploy workloads and allow connectivity as specified by the tenant.
 * If a [datacenter](#datacenters) fails to maintain lease, collateral is transferred to tenant, and a new [order](#order) is crated for the desired resources.
-
-### Use Cases
-
-#### Web Application
-
-![rails app](dot/webapp.svg)
 
 ## Actors
 
@@ -449,15 +443,12 @@ within a single datacenter.  As a machine learning task begins, the management t
 the number of nodes for it; when a task completes, the resources provisioned for it can be
 relinquished.
 
-
 ## History
 
 March 8, 2018: Initial Design based on Akash Whitepaper
 
-## Bibliography
-
-[Bootstrapping the Free Market By Borrowing From Future]: https://blog.akash.network/2019/10/07/bootstrapping-a-free-market-by-borrowing-from-the-future/
-
 ## Copyright
 
 All content herein is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+[Bootstrapping the Free Market By Borrowing From Future]: https://blog.akash.network/2019/10/07/bootstrapping-a-free-market-by-borrowing-from-the-future/
