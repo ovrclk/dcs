@@ -5,7 +5,9 @@ author: Adam Bozanich (@boz)
 status: Final
 type: Standards Track
 category: Core
+discussions-to: https://github.com/ovrclk/akash/issues/457
 created: 2020-03-09
+updated: 2020-03-17
 ---
 
 # Summary
@@ -22,3 +24,6 @@ The Akash blockchain development began in 2017 on an older version of Tendermint
 
 By migrating to Cosmos SDK, we believe Akash can solve the scalability issues and leverage an extensive set of prebuilt modules and audited and battle-tested.
 
+## Copyright
+
+All content herein is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
