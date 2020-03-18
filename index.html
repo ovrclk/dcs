@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+
+<p>Decentralized Cloud Standards (DCSs) describe standards for the Akash platform, including core protocol specifications, client APIs, and SDL standards.</p>
+
+<h2>Contributing</h2>
+<p>First review <a href="spec/dcs-001-dcs-standard">DCS-1</a>. Then clone the repository and add your DCS to it. There is a <a href="https://github.com/ovrclk/dcs/blob/master/dcs-template.md">template DCS here</a>. Then submit a Pull Request to Akash's <a href="https://github.com/ovrclk/dcs">DCS repository</a>.</p>
+
+<h2>DCS status terms</h2>
+<ul>
+  <li><strong>Draft</strong> - a DCS that is open for consideration and is undergoing rapid iteration and changes.</li>
+  <li><strong>Last Call</strong> - a DCS that is done with its initial iteration and ready for review by a wide audience.</li>
+  <li><strong>Accepted</strong> - a core DCS that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author. The process for Core Devs to decide whether to encode an DCS into their clients as part of a hard fork is not part of the DCS process. If such a decision is made, the DCS will move to final. </li>
+  <li><strong>Final (non-Core)</strong> - a DCS that has been in Last Call for at least 2 weeks and any technical changes that were requested have been addressed by the author.</li>
+  <li><strong>Final (Core)</strong> - a DCS that the Core Devs have decided to implement and release in a future hard fork or has already been released in a hard fork.</li>
+</ul>
+
+<h2>DCS Types</h2>
+
+<p>DCSs are separated into a number of types, and each has its own list of DCSs.</p>
+
+<h3>Standard Track ({{site.pages|where:"type","Standards Track"|size}})</h3>
+<p>Describes any change that affects most or all Akash implementations, such as a change to the the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Akash. Furthermore Standard DCSs can be broken down into the following categories.</p>
+
+<h4><a href="{{"core"|relative_url}}">Core</a> ({{site.pages|where:"type","Standards Track"|where:"category","Core"|size}})</h4>
+<p>Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to "core dev" discussions (<a href="spec/dcs-002-dcx">DCS-2</a>, <a href="spec/dcs-008-accredited-providers">DCS-8</a>).</p>
+
+<h4><a href="{{"interface"|relative_url}}">Interface</a> ({{site.pages|where:"type","Standards Track"|where:"category","Interface"|size}})</h4>
+<p>Improvements around client API specifications and standards, and also certain language-level standards like method names (<a href="spec/dcs-003-sdl-semantics">DCS-3</a>).</p>
+
+<h4><a href="{{"economics"|relative_url}}">Economics</a> ({{site.pages|where:"type","Standards Track"|where:"category","Economics"|size}})</h4>
+<p> Improvements around Akash Economic Model with regards to Staking or Subsidy distribution (<a href="spec/dcs-009-supply-subsidy">DCS-9</a>). </p>
+
+<h3><a href="{{"meta"|relative_url}}">Meta</a> ({{site.pages|where:"type","Meta"|size}})</h3>
+<p>Describes a process surrounding Akash or proposes a change to (or an event in) a process. Process DCSs are like Standards Track DCSs but apply to areas other than the Akash protocol itself. They may propose an implementation, but not to Akash's codebase; they often require community consensus; unlike Informational DCSs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Akash development. Any meta-DCS is also considered a Process DCS.</p>
+
+<h3><a href="{{"informational"|relative_url}}">Informational</a> ({{site.pages|where:"type","Informational"|size}})</h3>
+<p>Describes a Akash design issue, or provides general guidelines or information to the Akash community, but does not propose a new feature. Informational DCSs do not necessarily represent Akash community consensus or a recommendation, so users and implementers are free to ignore Informational DCSs or follow their advice.</p>

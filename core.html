@@ -1,0 +1,7 @@
+---
+layout: page
+title: Core
+---
+
+{% assign dcss=site.pages|where:"type","Standards Track"|where:"category","Core" %}
+{% include dcstable.html dcss=dcss %}

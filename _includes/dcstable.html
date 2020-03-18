@@ -1,0 +1,28 @@
+<style type="text/css">
+  .dcstable .title {
+    width: 67%;
+  }
+
+  .dcstable .author {
+    width: 33%;
+  }
+</style>
+{% for status in site.data.statuses %}
+  {% assign dcss = include.dcss|where:"status",status|sort:"dcs" %}
+  {% assign count = dcss|size %}
+  {% if count > 0 %}
+    <h2 id="{{status|slugify}}">{{status}}</h2>
+    <table class="dcstable">
+      <thead>
+        <tr><th class="dcsnum">Number</th><th class="title">Title</th><th class="author">Author</th></tr>
+      </thead>
+      {% for page in dcss %}
+        <tr>
+          <td class="dcsnum"><a href="{{page.url|relative_url}}">{{page.dcs|xml_escape}}</a></td>
+          <td class="title">{{page.title|xml_escape}}</td>
+          <td class="author">{% include authorlist.html authors=page.author %}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+{% endfor %}

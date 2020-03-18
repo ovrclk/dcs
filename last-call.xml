@@ -1,0 +1,35 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akash DCSs - Last Call Review</title>
+    <description>All DCSs which are in the two-week "last call" status, please help review these and provide your feedback!</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/last-call.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% assign dcss = site.pages | sort: 'dcs' %}
+    {% for dcs in dcss %}
+      {% if dcs.status == "Last Call" %}
+      {% capture description %}
+        <p><strong>DCS #{{ dcs.dcs }} - {{dcs.title }}</strong> is in Last Call status. It is authored by {{ dcs.author }} and was originally created {{ dcs.created }}. It is in the {{ dcs.category }} category of type {{ dcs.type }}. Please review and note any changes that should block acceptance.</p>
+        {% if dcs.discussions-to %}
+          <p>The author has requested that discussions happen at the following URL: {{ dcs.discussions-to }}</p>
+        {% else %}
+          <p>Please visit the [ovrclk/DCSs issues to comment](https://github.com/ovrclk/DCSs/issues/{{dcs.dcs}}).</p>
+        {% endif %}
+        <hr />
+        {{ dcs.content }}        
+      {% endcapture %}
+      <item>
+        <title>{{ dcs.title | xml_escape }}</title>
+        <description>{{ description | xml_escape }}</description>
+        <pubDate>{{ dcs.created | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}/{{ dcs.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}/{{ dcs.url }}</guid>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
