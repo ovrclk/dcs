@@ -11,7 +11,7 @@ created: 2020-03-17
 
 ## Summary
 
-Trusted Execution Environment (TEE) guarantees code and data loaded inside to be protected with respect to confidentiality and integrity that is enforced at the Process level.
+Trusted Execution Environment (TEE) guarantees code and data loaded inside to be protected with respect to confidentiality and integrity that is enforced at the processor level.
 
 ## Motivation
 
@@ -47,4 +47,3 @@ TEE is platform-dependent, all major providers have a form for TEE implementatio
 ## Further Research
 
 Opensource Implementations for TEE are incomplete, projects like [Keystone](http://docs.keystone-enclave.org/en/latest/) are making progress in the right direction and require further analysis on practicality.
-

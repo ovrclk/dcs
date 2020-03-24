@@ -2,7 +2,7 @@ server:
 	jekyll server
 
 build:
-	jekyill build
+	bundle exec jekyll build
 
 deps:
 	bundle install
