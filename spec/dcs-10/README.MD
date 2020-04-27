@@ -10,7 +10,11 @@ created: 2020-03-09
 
 ## Summary
 
-The block compensation for a staker is proportional to their staked amount, the time to unlock and overall locked tokens.
+The block compensation for a staker is proportional to their staked amount, the time to unlock and overall locked tokens. 
+
+## Specification
+
+See [AKT Token Economics Whitepaper](https://akash-web-prod.s3.amazonaws.com/uploads/2020/03/akash-econ.pdf) for details.
 
 ## Copyright
 
